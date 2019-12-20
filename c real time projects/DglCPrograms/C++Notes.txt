@@ -1,0 +1,199 @@
+#include<iostream.h>
+#include<conio.h>
+
+cin>>Reading an input form user
+cout<<Display the output
+
+>>Insertion
+<<Exteration
+
+int a;
+
+cin>>a;
+
+ControlStatement
+======================
+1.Branching
+
+2.Looping
+
+Braching:
+============
+if else
+Nested if else
+Else if ladder
+Switch Statement
+
+if(exp-1)
+{
+	//stmt
+}
+else
+{
+	//stmt
+}
+=====================
+if(exp-1)
+{
+	if(exp-2)
+	{
+	//stmt;
+	}
+	else
+	{
+	//stmt;
+	}
+
+}
+else
+{
+	//stmt
+}
+=======================
+if(exp-1);
+{
+	//stmt
+}
+else if(exp-2)
+{
+	//stmt
+}
+else if(exp-3)
+{
+	//stmt
+}
+else
+{
+	//stmt
+}
+=========================
+              exp=1;
+              exp='a'
+switch(exp)   switch(exp)
+{
+	case 1:
+	//stmt;
+	break;
+	case 2:
+	//stmt;
+	break;
+	case 3:
+	//stmt;
+	break;
+	default:
+	//stmt;
+	break;
+}
+
+============================
+
+
+
+Looping:
+===========
+for loop
+nested for loop
+while loop
+do while loop
+
+
+Syntax:
+=========
+for(initalvalues;cnd;inc/der)
+{
+	//stmt;
+}
+
+initalvalue;
+for(;cnd;inc/drc)
+{
+	//stmt
+}
+initalvalue;
+for(;cnd;)
+{
+	inc/drc;
+}
+initalvalue;
+for(;;;)
+{
+	//stmt;
+}
+
+
+while(cnd)
+{
+
+	//stmt;
+	incr/drc;
+}
+
+
+do
+{
+	//stmt;
+    inc/drc;
+   
+}while(cnd);
+
+=================
+switch(exp)
+{
+	case 1:
+	//stmt;
+	break;
+	case 2:
+	//stmt;
+	break;
+	case 3:
+	//stmt;
+	break;
+	default:
+	//stmt;
+	break;
+}
+
+Array:
+=======
+
+int pid[10]={100,200,300}
+int pid[2][2];
+
+pid[0]=100
+pid[1]=200
+pid[2]=300
+.
+.
+.
+.
+pid[9]=400
+
+Inheritance:
+============
+
+class B
+{
+	//stmt------(A)----Declare
+}
+class D:public B
+{
+	//stmt------(A)----No Declaration 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
