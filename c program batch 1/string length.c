@@ -4,5 +4,5 @@
 void main()
 {
 	char name[20]="minidurai";
-	printf("\n your string lrngth:%d",strlen(name));
+	printf("\n your string length:%d",strlen(name));
 }

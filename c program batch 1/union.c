@@ -15,8 +15,8 @@
  	o.a=10;
  	o.b='m';
  	o.d=20.25;
- 	printf("\n%d",o.d);
+ 	printf("\n%f",o.d);
  	printf("\n%c",o.b);
- 	printf("\n%f",o.a);
+ 	printf("\n%d",o.a);
  	
  }

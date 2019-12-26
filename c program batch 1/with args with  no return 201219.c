@@ -1,18 +1,18 @@
 #include<stdio.h>
 #include<conio.h>
-void maths(int);
+void maths(float);
 void tamil(int);
 void english(int);
 void main()
 {
-	maths(10);
+	maths(10.1);
     tamil(4);
     english(8);
 	
 }
-void maths(int a)
+void maths(float a)
 {
-	printf("\ni taking maths class %d:",a);
+	printf("\ni taking maths class %f:",a);
 
 }
 void tamil(int b)
