@@ -1,0 +1,43 @@
+#include<stdio.h>
+int main()
+{
+	int ch,amt,i,net=0;
+	do{
+			printf("CAFE CAKE BEE");
+	printf("\n\n 1.SIZZLING BROWNIE");
+	printf("\n 2.RED VELVET");
+	printf("\n 3.CARROT CAKE");
+	printf("\n\n enter the number for choosing the dish :");
+	scanf("%d",&ch);
+switch(ch)
+{
+	case 1:
+		printf("enter no.of sizzling browine :");
+		scanf("%d",&amt);
+		amt=amt*100;
+		net=net+amt;
+		break;
+	case 2:
+		printf("enter no.of red velvet:");
+		scanf("%d",&amt);
+		amt=amt*50;
+		net=net+amt;
+		break;
+	case 3:
+		printf("enter no.of carrot cake:");
+		scanf("%d",&amt);
+		amt=amt*40;
+		net=net+amt;
+		break;
+	default:
+		printf("\n invalid dish, so corrct number for dish:");
+		break;			
+}
+	printf("click 1 to choose the menu : ");
+	scanf("%d",&i);
+	}
+	while(i==1);
+	printf("total amount:%d",net);
+	
+   return 0;
+}
