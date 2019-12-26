@@ -1,4 +1,8 @@
-int main()
+#include<stdio.h>
+
+
+
+void main()
 {
 	int a,b;
 	printf("enter the values");
@@ -11,5 +15,5 @@ int main()
 	{
 		printf("you are out");
 	}
-	return 0;
+	
 }

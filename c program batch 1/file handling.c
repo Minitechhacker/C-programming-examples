@@ -3,7 +3,7 @@
  void main()
  {//file handling
  	FILE *fp;
- 	fp=fopen("first.txt","w");//"name",mode;
+ 	fp=fopen("min.txt","w");//"name",mode;
     if(fp==NULL)
     printf("does not exit");
     else
