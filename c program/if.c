@@ -1,14 +1,18 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 	int age;
-	printf("\nenter your age:");
+	printf("what is your age:");
 	scanf("%d",&age);
 	if(age>18)
 	{
-		printf("\nyour eligiable for vote ");
-		printf("\n thank you");
+		printf("\n eligiable for vote:");
+		printf("\nthank you");
+		printf("\nnow time:12:26pm");
 	}
-	getch();
+	else 
+	{
+		printf("\n not eligiable for vote:");
+		printf("\ntry again:");
+	}
 }
